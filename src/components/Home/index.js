@@ -37,7 +37,7 @@ export function Home() {
             </div>
           </Header>
           <Footer>
-            <p>{name || 'Seu nome aqui'}</p>
+            <p>{name || 'Seu nome'}</p>
             <img src={nubankLogo} alt="nubank-logo" />
           </Footer>
         </Content>
