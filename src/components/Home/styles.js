@@ -10,8 +10,26 @@ const containerVariants = {
     x: 0,
     opacity: 1,
     transisition: {
-      duration: 1,
+      duration: 2,
       type: 'spring',
+      ease: 'easOut',
+      bounce: 1,
+    },
+  },
+};
+
+const inputContainerVariants = {
+  hidden: {
+    y: 100,
+    opacity: 0,
+  },
+  visible: {
+    y: 0,
+    opacity: 1,
+    transisition: {
+      duration: 2,
+      type: 'spring',
+      ease: 'easOut',
       bounce: 1,
     },
   },
@@ -30,7 +48,11 @@ export const Container = styled(motion.main).attrs(() => ({
   box-shadow: 5px 8px 8px #000;
 `;
 
-export const InputContainer = styled.div`
+export const InputContainer = styled(motion.div).attrs(() => ({
+  variants: inputContainerVariants,
+  initial: 'hidden',
+  animate: 'visible',
+}))`
   padding: 20px 0px 80px 0px;
 
   input {
