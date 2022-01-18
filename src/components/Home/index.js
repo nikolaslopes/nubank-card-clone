@@ -8,11 +8,13 @@ import masterCardLogo from '../../assets/images/mc-logo.svg';
 import chipLogo from '../../assets/images/chip.png';
 import nubankLogo from '../../assets/images/nubank-logo.svg';
 
+import { formatName } from '../../utils/formatName';
+
 export function Home() {
   const [name, setName] = useState('');
 
   function handleNameChange(event) {
-    setName(event.target.value);
+    setName(formatName(event.target.value));
   }
 
   return (
