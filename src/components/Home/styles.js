@@ -1,44 +1,20 @@
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 
-const containerVariants = {
-  hidden: {
+export const Container = styled(motion.main).attrs(() => ({
+  initial: {
     x: -1000,
     opacity: 0,
   },
-  visible: {
+  animate: {
     x: 0,
     opacity: 1,
-    transisition: {
-      duration: 2,
-      type: 'spring',
-      ease: 'easOut',
-      bounce: 1,
-    },
   },
-};
-
-const inputContainerVariants = {
-  hidden: {
-    y: 100,
-    opacity: 0,
+  transition: {
+    duration: 1.5,
+    type: 'spring',
   },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transisition: {
-      duration: 2,
-      type: 'spring',
-      ease: 'easOut',
-      bounce: 1,
-    },
-  },
-};
-
-export const Container = styled(motion.main).attrs(() => ({
-  variants: containerVariants,
-  initial: 'hidden',
-  animate: 'visible',
+  effect: 'whileHover',
 }))`
   background: ${({ theme }) => theme.colors.primary.main};
   padding: 1em;
@@ -49,9 +25,18 @@ export const Container = styled(motion.main).attrs(() => ({
 `;
 
 export const InputContainer = styled(motion.div).attrs(() => ({
-  variants: inputContainerVariants,
-  initial: 'hidden',
-  animate: 'visible',
+  initial: {
+    x: -1000,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+  },
+  transition: {
+    duration: 2,
+    type: 'spring',
+  },
 }))`
   padding: 20px 0px 80px 0px;
 
@@ -113,6 +98,7 @@ export const Footer = styled.footer`
   height: 30%;
 
   p {
+    font-size: 15px;
     margin-left: 0.6em;
     display: flex;
   }
