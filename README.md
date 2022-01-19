@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+<h1 align="center">
+   Nubank Card Clone 💳💜
+</h1>
+ 
+### made just 4fun :)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</br></br>
 
-## Available Scripts
+## Run aplication :running_woman:	
 
-In the project directory, you can run:
+Note :raised_hand:: _&nbsp;_  you can use the packages `yarn` or `npm` to run the project
 
-### `yarn start`
+Steps to run:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Download the `zip project` or execute in the terminal: `https://github.com/nikolaslopes/nubank-card-clone.git`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Open the folder in the terminal: `cd nubank-card-clone`
 
-### `yarn test`
+* Open the terminals and run: `yarn install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Then, run in terminal again: `yarn start`
 
-### `yarn build`
+* Open in the`Browser`: http://localhost:3000
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots :camera_flash:	
+<p>
+  <img alt="" title="" src="gitHub-imgs/sc1.png">
+  <img alt="" title="" src="gitHub-imgs/sc2.png">
+  <img alt="" title="" src="gitHub-imgs/sc3.png">
+  <img alt="" title="" src="gitHub-imgs/sc4.png">
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</br></br>
+    
+## Techs :rocket:
+- React <img src="gitHub-imgs/react-logo-icon.svg" alt="express" align="center" height="20">
+- Styled Components <img src="gitHub-imgs/styled-components-icon.svg" alt="express" align="center" height="20">
+- Express.js <img src="gitHub-imgs/nodejs-logo-icon.svg" alt="express" align="center" height="20">
+- SQLite <img src="gitHub-imgs/sqlite-logo-icon.svg" align="center" alt="sqlite" height="20">
+- Insomnia <img src="gitHub-imgs/insomnia-icon.svg" alt="docker" align="center" height="20">
+    
+<br><br>
+   
+## Author <img src="gitHub-imgs/tic-computer-icon.svg" alt="docker" align="center" height="30">
 
-### `yarn eject`
+- GitHub: [nikolaslopes](https://github.com/nikolaslopes) :octocat:
+- LinkedIn: [nikolas-lopes](https://www.linkedin.com/in/nikolas-lopes-b06524209/) <img src="gitHub-imgs/linkedin-icon.svg" alt="express" align="center" height="20">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<br>
+  
+<p>Thanks for your support :shipit:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
