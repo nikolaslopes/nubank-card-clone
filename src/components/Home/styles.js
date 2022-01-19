@@ -14,7 +14,7 @@ export const Container = styled(motion.main).attrs(() => ({
     duration: 1.5,
     type: 'spring',
   },
-  effect: 'whileHover',
+  whileHover: { scale: 1.1 },
 }))`
   background: ${({ theme }) => theme.colors.primary.main};
   padding: 1em;
