@@ -12,13 +12,13 @@ Note :raised_hand:: _&nbsp;_  you can use the packages `yarn` or `npm` to run th
 
 Steps to run:
 
-* Download the `zip project` or execute in the terminal: `git clone https://github.com/nikolaslopes/BeTheHero.git`
+* Download the `zip project` or execute in the terminal: `https://github.com/nikolaslopes/nubank-card-clone.git`
 
-* Open the folder in the terminal: `cd BeTheHero`
+* Open the folder in the terminal: `cd nubank-card-clone`
 
-* Open the front-end and back-end folders in different terminals and run in both: `yarn install`
+* Open the terminals and run: `yarn install`
 
-* Then, run in both terminals again: `yarn start`
+* Then, run in terminal again: `yarn start`
 
 * Open in the`Browser`: http://localhost:3000
 
