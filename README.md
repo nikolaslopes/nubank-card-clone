@@ -1,8 +1,14 @@
 <h1 align="center">
    Nubank Card Clone 💳💜
 </h1>
- 
-### made just 4fun :)
+
+<br><br><br>
+
+## Screenshots :camera_flash:	
+
+<p align="center"> <img src="./github-default-assets/images/nubank-card.png" alt="heroes" height="500"> </p>
+
+<p align="center"> <img src="./github-default-assets/images/nubank-card-name.png" alt="heroes" height="500"> </p>
 
 </br></br>
 
@@ -22,31 +28,20 @@ Steps to run:
 
 * Open in the`Browser`: http://localhost:3000
 
-<br>
-
-## Screenshots :camera_flash:	
-<p>
-  <img alt="" title="" src="gitHub-imgs/sc1.png">
-  <img alt="" title="" src="gitHub-imgs/sc2.png">
-  <img alt="" title="" src="gitHub-imgs/sc3.png">
-  <img alt="" title="" src="gitHub-imgs/sc4.png">
-</p>
-
-</br></br>
+<br><br>
     
 ## Techs :rocket:
-- React <img src="gitHub-imgs/react-logo-icon.svg" alt="express" align="center" height="20">
-- Styled Components <img src="gitHub-imgs/styled-components-icon.svg" alt="express" align="center" height="20">
-- Express.js <img src="gitHub-imgs/nodejs-logo-icon.svg" alt="express" align="center" height="20">
-- SQLite <img src="gitHub-imgs/sqlite-logo-icon.svg" align="center" alt="sqlite" height="20">
-- Insomnia <img src="gitHub-imgs/insomnia-icon.svg" alt="docker" align="center" height="20">
+- React ⚛
+- Styled Components 💅🏻
+- Framer Motion 🔮
+
     
 <br><br>
    
-## Author <img src="gitHub-imgs/tic-computer-icon.svg" alt="docker" align="center" height="30">
+## Author <img src="./github-default-assets/icons/tic-computer-icon.svg" alt="tic-computer-icon" align="center" height="30">
 
 - GitHub: [nikolaslopes](https://github.com/nikolaslopes) :octocat:
-- LinkedIn: [nikolas-lopes](https://www.linkedin.com/in/nikolas-lopes-b06524209/) <img src="gitHub-imgs/linkedin-icon.svg" alt="express" align="center" height="20">
+- LinkedIn: [nikolas-lopes](https://www.linkedin.com/in/nikolas-lopes-b06524209/) <img src="./github-default-assets/icons/linkedin-icon.svg" alt="linkedin-icon" align="center" height="20">
 
 <br>
   
